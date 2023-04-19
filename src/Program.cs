@@ -6,12 +6,17 @@ namespace MyConsoleApp
     {
         static void Main(string[] args)
         {
-            Constructor Example = new Constructor("username", 66);
+            Person person = new Person("John Doe", 30);
 
-            Example.Age = 99;
-            Example.Name = "USERNAME";
+            if (person.IsNameValid())
+            {
+                Console.WriteLine("Name is valid");
+            }
 
-            Console.WriteLine($"Username: {Example.Name}, Age: {Example.Age}");
+            if (person.IsAgeValid())
+            {
+                Console.WriteLine("Age is valid");
+            }
         }
     }
 }
