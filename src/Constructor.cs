@@ -2,25 +2,25 @@ namespace learn_cs.src
 {
     public class Constructor
     {
-        private string nombre;
-        private int edad;
+        private string name;
+        private int age;
 
         public Constructor(string nombre, int edad)
         {
-            this.nombre = nombre;
-            this.edad = edad;
+            this.name = nombre;
+            this.age = edad;
         }
 
-        public string Nombre
+        public string Name
         {
-            get { return nombre; }
-            set { nombre = value; }
+            get { return this.name; }
+            set { this.name = value; }
         }
 
-        public int Edad
+        public int Age
         {
-            get { return edad; }
-            set { edad = value; }
+            get { return this.age; }
+            set { this.age = value; }
         }
     }
 }
