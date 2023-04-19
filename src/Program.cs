@@ -6,11 +6,9 @@ namespace MyConsoleApp
     {
         static void Main(string[] args)
         {
-            Loops myLoops = new Loops();
-            myLoops.ForLoop();
-            myLoops.WhileLoop();
-            myLoops.DoWhileLoop();
-            myLoops.ForEachLoop();
+            TryCatchException trying = new TryCatchException();
+
+            trying.TryCatchCase();
         }
     }
 }
